@@ -8,6 +8,8 @@ public:
 
 public:
 	BOOL SendChat(WCHAR * lpRoomTitle, WCHAR* lpMsg);
+	
+private:
 	HWND FindChatHandle(WCHAR* lpRoomTitle);
 };
 
